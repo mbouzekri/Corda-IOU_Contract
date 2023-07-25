@@ -7,8 +7,10 @@ The specifics of the state of the IOU Contract can be found in the IOUState file
 In order to run the application, you would need to first set your local Java Home to Java 8(version 8u171 or higher). <br />
 Next, you will need to import a few external libraries. It is recommended to use IntelliJ IDEA as it imports all the needed jar files for you. <br />
 Lastly, you would need to deploy the nodes, and run them. In order to do that, you will need to run the following lines of code:
+```
 ./gradlew deployNodes
 ./
+```
 
 You can find bellow an example of a contract between two nodes and the details of the corresponding IOU Contract
 
