@@ -2,7 +2,8 @@
  🤝**Cordapp to create IOU Contracts between entities**
  
 This project makes use of Corda to make a Cordapp that simulates an IOU Contract between two given nodes or more. <br />
-The specifics of the state of the IOU Contract can be found in the IOUState file. The contract is verified and created following the format that can be found in IOUContrat file (value, lender, borrower).
+The specifics of the state of the IOU Contract can be found in the IOU State file. The contract is verified and created following <br />
+the format that can be found in IOUContrat file (value, lender, borrower).
 
 # Instructions 
 In order to run the application, you would need to first set your local Java Home to Java 8(version 8u171 or higher). <br />
@@ -13,7 +14,7 @@ Lastly, you would need to deploy the nodes and run them. In order to do that, yo
 ./gradlew runnodes
 ```
 
-You can find bellow an example of a contract between two nodes and the details of the corresponding IOU Contract
+Below is an example of a contract between two nodes and the details of the corresponding IOU Contract
 
 
 # IOU Contract Example
